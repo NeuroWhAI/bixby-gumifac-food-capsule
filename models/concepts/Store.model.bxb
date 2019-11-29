@@ -1,0 +1,11 @@
+enum (Store) {
+  description (식당 종류)
+  symbol (OneCamp) { description ("1캠퍼스") }
+  symbol (One) { description ("2캠퍼스 1식당") }
+  symbol (Two) { description ("2캠퍼스 2식당") }
+  symbol (Three) { description ("2캠퍼스 3식당") }
+
+  features {
+    //transient
+  }
+}

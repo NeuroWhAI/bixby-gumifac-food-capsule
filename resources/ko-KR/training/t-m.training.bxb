@@ -1,0 +1,10 @@
+train (t-mljyjyp4eaoff9r4l2w9zo7t1) {
+  utterance ("[g:MenuResult] {[g:MealDate] (내일)[v:time.DateTimeExpression]} (아침)[v:Meal:Breakfast] (테아)[v:Corner:Takeout] 보여줘")
+  plan (dY5JDsIwDEU/kMIhGIQ4QDY9ArBkA+xRBC6N1MYoQ8vxcVSxjK0vfcvPA1Y4OEqex9bYWr9TbxvzfDTML30hl64UUhexLzG3lsfMYVcijuwdeWzKV0xX3p+7JxMJ2+IHkT1hPdhBR9uTzvRdzPn78RSCZYclZphjAYVKPKSaUon+oUSVaOLyhPoB)
+  last-modified (1575029009972)
+}
+train (t-mt6bpi982v8t6h7o320t3nhgv) {
+  utterance ("[g:MenuResult] (1식당)[v:Store:One]의 {[g:MealDate] (오늘)[v:time.DateTimeExpression]} (야식)[v:Meal:Midnight] 메뉴 알려줄래?")
+  plan (fY3LCsJADEWvnepPFAVxPwv9hbrsRt3LoKkdaCcyj9bPN6PrNiFwSA432ODgKHmeOmNP+pUGe2zN494yP3VDLl0opD5iPytdO56yiO1CjukXEvK5NpGwm38S2ROq0Y462oF01m8C58/bUwiWHdZYoYBCKQTh3ErmX6VM3hdC6ueqLw==)
+  last-modified (1574860462640)
+}

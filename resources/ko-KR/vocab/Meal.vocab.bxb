@@ -1,0 +1,7 @@
+vocab (Meal) {
+  "Breakfast" { "아침" }
+  "Lunch" { "점심" }
+  "Dinner" { "저녁" }
+  "Midnight" { "야식", "야간" }
+  "Dawn" { "새벽식", "새벽" }
+}

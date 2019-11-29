@@ -1,0 +1,6 @@
+dialog (Selection) {
+  match: Store
+  template("식당을 선택하세요.") {
+    speech ("원하시는 식당을 선택해주세요.")
+  }
+}

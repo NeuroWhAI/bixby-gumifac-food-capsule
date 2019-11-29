@@ -1,0 +1,6 @@
+dialog (Result) {
+  match: MenuResult (this)
+  template("#{value(this.info)}") {
+    speech ("#{value(this.info)}")
+  }
+}

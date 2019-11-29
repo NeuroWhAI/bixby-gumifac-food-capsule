@@ -1,0 +1,10 @@
+train (t-ocf4ys3f221htff1vyk2ge038) {
+  utterance ("[g:MenuResult] {[g:MealDate] (내일)[v:time.DateTimeExpression]} (1식당)[v:Store:One] (점심)[v:Meal:Lunch] (테아)[v:Corner:Takeout] 메뉴 뭐야?")
+  plan (fY7NCsJADIRH3epDiIp430N9BPXoRb3LoqldaDeyP62Pbxbx2CYEMswXJlhg5yh57mtj9/qVWltW5nGvmJ/6TC5dKKQmYjsIXWvuM4jNIHJg78hjNRJkmpGIbB9NJKyHv4jsCcvOdjralnTGb7KcPm9PIVh2mGOCKWZQKGSHqF8rmX8pmexlrhCVb9QX)
+  last-modified (1574941360781)
+}
+train (t-oiz9192x8g43cq2yoy8nmid9g) {
+  utterance ("[g:MenuResult] (1식당)[v:Store:One] {[g:MealDate] (오늘)[v:time.DateTimeExpression]} (점심)[v:Meal:Lunch] (테이크아웃)[v:Corner:Takeout] 뭐 있어?")
+  plan (fY7NCsJADIRH3epDiIp430N9BPXoRb3LoqldaDeyP62Pbxbx2CYEMswXJlhg5yh57mtj9/qVWltW5nGvmJ/6TC5dKKQmYjsIXWvuM4jNIHJg78hjNRJkmpGIbB9NJKyHv4jsCcvOdjralnTGb7KcPm9PIVh2mGOCKWZQKGSHqF8rmX8pmexlrhCVb9QX)
+  last-modified (1574941376361)
+}

@@ -1,0 +1,5 @@
+train (t-j89vbpf5xbcqph47i3dt1swqk) {
+  utterance ("[g:MenuResult] (저녁)[v:neurowhai3.gumifac_food.Meal:Dinner] (테이크아웃)[v:Corner:Takeout] 알려줘")
+  plan (Y2BlUMpLLS3KL89IzDTWSy/NzUxLTI5Py89P0fNNzSsNSi0uzSlhUMClJjgjvxykjkEOlwrn/KK81CIGGdy2JOYwyOI0vyS/KJWBhYGRgYmBGUgzAFkQCAPMQAySYwAA)
+  last-modified (1575029085373)
+}

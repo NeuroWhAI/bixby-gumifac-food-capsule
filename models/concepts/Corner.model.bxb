@@ -1,0 +1,8 @@
+enum (Corner) {
+  description (식당의 코너)
+  symbol (Takeout)
+
+  features {
+    transient
+  }
+}

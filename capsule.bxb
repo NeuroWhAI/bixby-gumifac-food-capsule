@@ -1,0 +1,29 @@
+capsule {
+  id (neurowhai3.gumifac_food)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-ko-KR)
+  }
+  store-sections {
+    section (FoodAndDrink)
+  }
+  store-countries {
+    only {
+      allow (KR)
+    }
+  }
+  capsule-imports {
+    import (viv.time) {
+      as (time) version (3.0.52)     
+    }
+  }
+  runtime-flags {
+    use-input-views-for-selection-list-detail
+    no-filtering-with-validation
+    modern-default-view-behavior
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+  }
+}

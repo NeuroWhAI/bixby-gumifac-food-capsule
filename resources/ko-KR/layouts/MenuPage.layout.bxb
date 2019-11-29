@@ -1,0 +1,40 @@
+layout-macro-def (MenuPage) {
+  params {
+    param (menu) {
+      type (Menu)
+      min (Required) max (One)
+    }
+  }
+
+  content {
+    compound-card {
+      content {
+        // 코너 이름
+        single-line {
+          text {
+            style (Detail_L_Soft)
+            value ("#{value(menu.corner)}")
+          }
+        }
+        // 주메뉴
+        for-each (menu.main) {
+          as (dish) {
+            single-line {
+              text {
+                style (Title_M)
+                value ("#{value(dish)}")
+              }
+            }
+          }
+        }
+        // 반찬
+        if (exists(menu.side)) {
+          paragraph {
+            style (Detail_M_Soft)
+            value ("#{value(menu.side)}")
+          }
+        }
+      }
+    }
+  }
+}

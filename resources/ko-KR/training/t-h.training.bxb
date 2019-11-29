@@ -1,0 +1,5 @@
+train (t-hndcc72vljz648d6x5tjvsarg) {
+  utterance ("[g:MenuResult] (2식당)[v:Store:Two] (점심)[v:Meal:Lunch] 뭐야?")
+  plan (Y2BhUM5LLS3KL89IzDTWSy/NzTRKS0yOT8vPT9HzTc0rDUotLs0pYVDEqSg4I78cpJBBFo85iTkMcrhNKMkvSmVgZmBkYAKSDEAaBCEAxAeLAgA=)
+  last-modified (1574861276703)
+}

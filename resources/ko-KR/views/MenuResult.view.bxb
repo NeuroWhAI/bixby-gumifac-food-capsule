@@ -1,0 +1,34 @@
+result-view {
+  match: MenuResult (this)
+
+  render {
+    if (size(this.menu) > 0) {
+      list-of (this.menu) {
+        has-details (false)
+        where-each (menuPage) {
+          layout-macro (MenuPage) {
+            param (menu) {
+              expression (menuPage)
+            }
+          }
+        }
+      }
+    }
+    else {
+      layout {
+        section {
+          content {
+            single-line {
+              text {
+                value {
+                  template ("메뉴를 찾을 수 없어요.")
+                }
+                style (Title_S)
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

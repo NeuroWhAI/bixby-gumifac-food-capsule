@@ -1,0 +1,5 @@
+train (t-4gbn0yxullj1xqk4z68k7rax0) {
+  utterance ("[g:MenuResult] {[g:MealDate] (내일)[v:time.DateTimeExpression]}  (야식)[v:Meal:Midnight]은?")
+  plan (dY1NCsJADEY/neolVBAPMBuvYJdu1L0MmtpAO5H5aT2+E3Q7CR88yEuCNQ6ecpC5d3y0rzxy5x73TuRpz+TzhWIeEvY159rLrB629StuqO/r9OQSYVf9kCQQNhNPNvFIVu1bgfbzDhQji8cKCyxh0BRCYW1T8qvmHzXUNF8=)
+  last-modified (1575027995574)
+}

@@ -1,0 +1,5 @@
+train (t-1a3bq3ivc7xb3w58r5wmyu3md) {
+  utterance ("[g:MenuResult] (일 캠퍼스)[v:Store:OneCamp] {[g:MealDate] (어제)[v:time.DateTimeExpression]} (저녁)[v:Meal:Dinner] 뭐였어?")
+  plan (dY09DsIwDEY/msIlAAlxgCxcAUYWYEcRuDRSG6P8tBwfG+bYsvRkP9tYYR+oRJ575w/2VUbfuce9Y37aM4VyoVSGjF3NufY8q4dN/Yob6vs6PbpM2FY/ZI6E9eQnm/1IVu2bwOnzjpSS54AlFmhg0ApBWNNI/aOV0n4jZH6u+QI=)
+  last-modified (1575020813454)
+}

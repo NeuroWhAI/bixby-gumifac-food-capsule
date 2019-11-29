@@ -1,0 +1,36 @@
+action (ShowMenu) {
+  type (Search)
+  description (주어진 정보에 해당하는 메뉴 찾기)
+
+  collect {
+    input (store) {
+      type (Store)
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: Store
+          value-set { Store { Store(OneCamp) Store(One) Store(Two) Store(Three) } }
+        }
+      }
+      default-select {
+        with-learning {
+          option (NoRanking)
+        }
+      }
+    }
+    input (date) {
+      type (MealDate)
+      min (Optional) max (One)
+    }
+    input (meal) {
+      type (Meal)
+      min (Optional) max (One)
+    }
+    input (corner) {
+      type (Corner)
+      min (Optional) max (One)
+    }
+  }
+
+  output (MenuResult)
+}

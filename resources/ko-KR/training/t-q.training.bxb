@@ -1,0 +1,5 @@
+train (t-qish2rmh7asujcogaiaqt8tyq) {
+  utterance ("[g:MenuResult] (3식당)[v:Store:Three] (저녁)[v:Meal:Dinner] (테아)[v:Corner:Takeout] 메뉴가 궁금해")
+  plan (Y2BlUM5LLS3KL89IzDTWSy/NzTRKS0yOT8vPT9HzTc0rDUotLs0pYVDEqSg4I78cpJBBHqcS5/yivNQiBlk8FiXmMMjhtqIkvyiVgYWBkYGJgRlIMwBZEAgDIDGoHAA=)
+  last-modified (1574941368144)
+}

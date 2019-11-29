@@ -1,0 +1,5 @@
+train (t-k4t3g2dxtdhg9evqb9bsk4i6n) {
+  utterance ("[g:MenuResult] (일 캠퍼스)[v:Store:OneCamp] (테이크아웃)[v:Corner:Takeout]의 (저녁)[v:Meal:Dinner] 품목 알려줘")
+  plan (Y2BlUMpLLS3KL89IzDTWSy/NzUxLTI5Py89P0fNNzSsNSi0uzSlhUMClJjgjvxykjkEOlwrn/KK81CIGGdy2JOYwyOI0vyS/KJWBhYGRgYmBGUgzAFkQCAMgMagcAA==)
+  last-modified (1575029506003)
+}

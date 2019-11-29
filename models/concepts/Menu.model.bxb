@@ -1,0 +1,15 @@
+structure (Menu) {
+  description (한 코너의 메뉴)
+  property (corner) {
+    type (CornerName)
+    min (Required) max (One)
+  }
+  property (main) {
+    type (MainDish)
+    min (Optional) max (Many)
+  }
+  property (side) {
+    type (SideDish)
+    min (Optional) max (One) // 한 줄에 표시.
+  }
+}

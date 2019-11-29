@@ -1,0 +1,12 @@
+enum (Meal) {
+  description (끼니 종류)
+  symbol (Breakfast) // 아침
+  symbol (Lunch) // 점심
+  symbol (Dinner) // 저녁
+  symbol (Midnight) // 야식
+  symbol (Dawn) // 새벽식
+
+  features {
+    transient
+  }
+}

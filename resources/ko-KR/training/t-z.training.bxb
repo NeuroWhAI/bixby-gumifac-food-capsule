@@ -1,0 +1,5 @@
+train (t-zdcqjbfriz13spz24v7kjshuv) {
+  utterance ("[g:MenuResult] (1식당)[v:Store:One] {[g:MealDate] (오늘)[v:time.DateTimeExpression]} (테아)[v:Corner:Takeout] 메뉴 뭐야")
+  plan (dY1NCsIwEIWfTfUSUhEPkI1HUJfdVPcSdGoDbUby03p8J7rODA8+ho952ODgKHleBmOP+pUm25vHvWd+6pZc6iikMWJfcq4DL9nDrmSc2Dvy5Q8tmfFsIqEpdkT2hO1sZx3tRDrbN4HL5+0pBMsOa6xQQaEWgnBeJflPLcn3Skj9XPUF)
+  last-modified (1575028913928)
+}

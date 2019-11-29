@@ -1,0 +1,33 @@
+input-view {
+  match: Store (this)
+
+  render {
+    selection-of (this) {
+      where-each (item) {
+        cell-card {
+          slot2 {
+            content {
+              primary {
+                if (item == 'One') {
+                  template ("1식당")
+                }
+                else-if (item == 'Two') {
+                  template ("2식당")
+                }
+                else-if (item == 'Three') {
+                  template ("3식당")
+                }
+                else-if (item == 'OneCamp') {
+                  template ("1캠퍼스")
+                }
+                else {
+                  template ("그 외")
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

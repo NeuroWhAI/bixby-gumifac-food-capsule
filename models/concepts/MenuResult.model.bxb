@@ -1,0 +1,11 @@
+structure (MenuResult) {
+  description (메뉴 조회 결과)
+  property (info) {
+    type (ResultInfo)
+    min (Required) max (One)
+  }
+  property (menu) {
+    type (Menu)
+    min (Optional) max (Many)
+  }
+}

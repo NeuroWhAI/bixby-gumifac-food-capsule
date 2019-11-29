@@ -1,0 +1,5 @@
+train (t-ie0gm5tgmfdyr9e5alsvev3bb) {
+  utterance ("[g:MenuResult] (3식당)[v:Store:Three] {[g:MealDate] (내일)[v:time.DateTimeExpression]} (아침)[v:Meal:Breakfast] 보여줘")
+  plan (fY3LCsJADEWvnepPFAVxPwv9hbrsRt3LoKkdaCcyj9bPN6PrNiFwSA432ODgKHmeOmNP+pUGe2zN494yP3VDLl0opD5iPytdO56yiO1CjukXEvK5NpGwm38S2ROq0Y462oF01m8C58/bUwiWHdZYoYBCKQTh3ErmX6VM3hdC6ueqLw==)
+  last-modified (1574861332639)
+}

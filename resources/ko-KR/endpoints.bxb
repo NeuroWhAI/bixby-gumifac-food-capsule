@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (ShowMenu) {
+      accepted-inputs (store, date, meal, corner)
+      local-endpoint ("showMenu.js")
+    }
+  }
+}
