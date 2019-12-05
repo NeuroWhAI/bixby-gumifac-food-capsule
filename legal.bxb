@@ -1,0 +1,8 @@
+legal {
+  country-documents {
+    store-country(KR)
+    privacy-policy {
+      url(https://github.com/NeuroWhAI/bixby-gumifac-food-capsule/blob/master/privacy-policy.txt)
+    }
+  }
+}
