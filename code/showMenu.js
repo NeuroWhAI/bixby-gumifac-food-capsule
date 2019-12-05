@@ -42,7 +42,7 @@ module.exports.function = function showMenu (store, date, meal, corner) {
     var d = dates.ZonedDateTime.fromDate(date.date);
     d = d.plusDays(dayOffset);
 
-    targetDate = d.getYear() + "-" + d.getMonth() + "-" + d.getDay();
+    targetDate = d.format('yyyy-MM-dd');
     dateAlias = date.date.month + "월 " + date.date.day + "일 "; // 보여주는 것은 오프셋 적용 없음.
 
     var alias = date.date.namedDate;
@@ -62,7 +62,7 @@ module.exports.function = function showMenu (store, date, meal, corner) {
     var d = dates.ZonedDateTime.now();
     d = d.plusDays(dayOffset);
     
-    targetDate = d.getYear() + "-" + d.getMonth() + "-" + d.getDay();
+    targetDate = d.format('yyyy-MM-dd');
     dateAlias = "오늘 ";
   }
 
