@@ -19,11 +19,9 @@ layout-macro-def (MenuPage) {
         // 주메뉴
         for-each (menu.main) {
           as (dish) {
-            single-line {
-              text {
-                style (Title_M)
-                value ("#{value(dish)}")
-              }
+            paragraph {
+              style (Title_M)
+              value ("#{value(dish)}")
             }
           }
         }
