@@ -12,4 +12,8 @@ structure (Menu) {
     type (SideDish)
     min (Optional) max (One) // 한 줄에 표시.
   }
+  property (kcal) {
+    type (Kcal)
+    min (Required) max (One)
+  }
 }

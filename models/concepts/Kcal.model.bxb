@@ -1,0 +1,3 @@
+integer (Kcal) {
+  description (메뉴 칼로리)
+}

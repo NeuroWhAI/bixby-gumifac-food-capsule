@@ -111,10 +111,18 @@ module.exports.function = function showMenu (store, date, meal, corner) {
     sideDishes = sideDishes.sort((a, b) => parseInt(a.menu_meal_seq) - parseInt(b.menu_meal_seq));
     sideDishes = map(sideDishes, (menu) => menu.menu_name);
 
+    // 칼로리 계산.
+    var sum_cal = 0, total_cal = 0;
+    for (var i=0; i<menuPart.length; i++) {
+      sum_cal += menuPart[i].kcal || 0;
+      total_cal += menuPart[i].tot_kcal || 0;
+    }
+
     return {
       corner: menuPart[0].course_txt,
       main: mainDishes,
       side: sideDishes.join(", "),
+      kcal: Math.round(Math.max(sum_cal, total_cal)),
     };
   });
 

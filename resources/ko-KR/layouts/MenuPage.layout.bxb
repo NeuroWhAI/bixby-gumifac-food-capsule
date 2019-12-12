@@ -9,11 +9,27 @@ layout-macro-def (MenuPage) {
   content {
     compound-card {
       content {
-        // 코너 이름
-        single-line {
-          text {
-            style (Detail_L_Soft)
-            value ("#{value(menu.corner)}")
+        // 코너 이름, 칼로리
+        hbox {
+          content {
+            vbox {
+              halign (Start)
+              content {
+                text {
+                  style (Detail_L_Soft)
+                  value ("#{value(menu.corner)}")
+                }
+              }
+            }
+            vbox {
+              halign (End)
+              content {
+                text {
+                  style (Detail_L_Soft)
+                  value ("#{value(menu.kcal)} kcal")
+                }
+              }
+            }
           }
         }
         // 주메뉴
