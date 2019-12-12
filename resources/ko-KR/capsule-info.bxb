@@ -8,9 +8,9 @@ capsule-info {
     keyword (스마트시티)
     keyword (메뉴)
   }
-  dispatch-name (스마트시티 식당)
+  dispatch-name (스마트시티)
   dispatch-aliases {
-    alias (스마트시티)
+    alias (스마트시티 식당)
   }
   action-bg-color (#2E279D)
   action-fg-color (#FFFFFF)
