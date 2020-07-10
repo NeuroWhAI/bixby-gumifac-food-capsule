@@ -4,7 +4,6 @@ result-view {
   render {
     if (size(this.menu) > 0) {
       list-of (this.menu) {
-        has-details (false)
         where-each (menuPage) {
           layout-macro (MenuPage) {
             param (menu) {

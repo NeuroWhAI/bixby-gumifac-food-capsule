@@ -20,5 +20,5 @@ capsule {
       version (3.1.48)
     }
   }
-  runtime-version (2)
+  runtime-version (7)
 }
