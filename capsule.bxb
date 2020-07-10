@@ -17,7 +17,7 @@ capsule {
     // https://bixbydevelopers.com/dev/docs/dev-guide/developers/library
     import (viv.time) {
       as (time)
-      version (3.1.48)
+      version (3.1.167)
     }
   }
   runtime-version (7)
